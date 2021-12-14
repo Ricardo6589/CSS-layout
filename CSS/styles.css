@@ -21,7 +21,6 @@ body {
 .column-1 {
     width: 100%;
     float: left;
-    background-color: green;
 }
 
 .column-2 {
@@ -39,6 +38,22 @@ body {
     float: left;
 }
 
+.column-5 {
+    width: 20%;
+    float: left;
+}
+
 @media only screen and (max-width: 600px) {
     /*reglas*/
+    /*column-3 pasara de tener 33'3%*/
+    .column-3 {
+        width: 100%;
+    }
+    /*coumn-4 pasara de tener 25% a 50%*/
+    .column-4 {
+        width: 50%;
+    }
+    #decima {
+        width: 100%;
+    }
 }
